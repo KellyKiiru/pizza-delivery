@@ -42,7 +42,7 @@ header {
     /* width: max-content; */
     /* margin-left: 200px; */
     /* margin-right: auto; */
-    background-color: rgb(16, 17, 17);
+    /* background-color: rgb(16, 17, 17); */
     /* position: relative;
     left: 25%; */
     height: 400px;
@@ -52,10 +52,23 @@ header {
     flex-direction:column ;
     justify-content: center;
     position: relative;
-    top: 200px; 
+    top: 150px; 
 }
 /* .col-md-2{
     background-color: red;
     border: 3px solid yellow;
     height: 200px;
 } */
+main{
+    display: flex;
+    justify-content: center;
+}
+main div a{
+    padding: 20px;
+    background-color:#df8a18;
+    border-radius: 10px;
+    font-size: large;
+    position: relative;
+    top: -50px;
+    letter-spacing: 3px;
+}
