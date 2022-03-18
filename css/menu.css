@@ -20,11 +20,24 @@ li {
     justify-content: space-between;
     /* border: 4px solid white; */
 
-}.one{
+}.one, .two{
     margin-bottom: 50px;
     margin-top: 50px;
+    /* background-color: aqua; */
+    padding: 20px;
+    /* width: max-content; */
 }
 .card{
     border: none;
     text-align: center;
+    box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.3);
+}
+
+body {
+    background-image: url('/bg2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
 }
