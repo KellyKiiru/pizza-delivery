@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/menu.css">
     <title>Our Menu</title>
+    <link rel="icon" href="https://www.favicon.cc/logo3d/758735.png" type="image/x-icon">
 </head>
 
 <body>
@@ -144,8 +145,6 @@
                         </div>
                     </div>
                 </div>
-                <a href="order.html"><input type="button" value="Place Order"
-                        style="position: relative; top: 150px; text-align: center; border-radius: 5px; background-color: #df8a18;"></a>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -153,6 +152,40 @@
         <script src="script/menu.js"></script>
         <script src="script/bootstrap.min.js"></script>
     </div>
+    <div class="col-md-4">
+        <form action="">
+            <div>
+                <input list="sizes" type="text" id="size" placeholder="size...">
+                <datalist id="sizes">
+                    <option value="Small">
+                    <option value="Medium">
+                    <option value="Large">
+                </datalist>
+            </div>
+            <div>
+                <input list="crusts" type="text" id="crust" placeholder="crust...">
+                <datalist id="crusts">
+                    <option value="Crispy">
+                    <option value="Stuffed">
+                    <option value="Gluten-free">
+                </datalist>
+            </div>
+            <div>
+                <input list="toppings" type="text" id="topping" placeholder="toppings...">
+                <datalist id="toppings">
+                    <option value="Grilled pineapple">
+                    <option value="Bacon Pickle">
+                    <option value="Buffalo Chicken">
+                </datalist>
+            </div>
+            <a href="/order.html"><input type="button" value="Place Order"
+                    style="position: relative; border-radius: 5px; background-color: #df8a18;"></a>
+        </form>
+    </div>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script/main.js"></script>
 </body>
 
 </html>
