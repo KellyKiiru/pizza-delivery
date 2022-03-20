@@ -55,3 +55,6 @@ body {
     background-attachment: fixed;
     height: 100vh;
 }
+#placeOrders:hover{
+    cursor: pointer;
+}
