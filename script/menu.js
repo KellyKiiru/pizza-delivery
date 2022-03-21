@@ -5,6 +5,10 @@ $(document).ready(function () {
             $('#reply').show(0);
         })
     })
+    $('#location').click(function(){
+        $('#yes').show(0);
+    });
+
     $('#yes').click(function () {
         $('#demo').hide(0, function () {
             // $('#modal').show(0);

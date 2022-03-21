@@ -115,18 +115,19 @@ form p {
 #yes:hover{
     cursor: pointer;
 }
-#modal{
+/* #modal{
     height: max-content;
     background-color: #df8a18;
     color: white;
-    width: 28%;
-    text-align: center;
-    border-radius: 5px;
-    padding: 20px;
-    position: relative;
-    top: -7px;
-    display: none;
-}
+    width: 28%; */
+    /* text-align: center; */
+    /* border-radius: 5px; */
+    /* padding: 20px; */
+    /* position: relative; */
+    /* top: -7px; */
+    /* display: none; */
+/* }  */
+
 #location:hover{
     cursor: pointer;
 }
@@ -136,4 +137,8 @@ form p {
     padding: 2px;
     font-size: large;
     font-weight: 700;
+}
+
+#reply{
+    margin-left: 50px;
 }
