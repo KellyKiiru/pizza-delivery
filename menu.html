@@ -96,9 +96,15 @@
                 </div>
             </div>
             <div class="container-fluid form">
+                <div id="modal">
+
+                </div>
                 <div class="col-md-3">
                     <div class="kama">
                         <form action="">
+                            <div>
+                                <input id="jina" type="text" placeholder="Your name">
+                            </div>
                             <div>
                                 <input list="sizes" type="text" id="size" placeholder="size...">
                                 <datalist id="sizes">
@@ -136,17 +142,18 @@
                         </form>
                         <p id="demo" style=" background-color: #df8a18; padding: 0 5px; width:max-content">
                         </p>
-                        <p id="demo2" style="color: white; background-color: #df8a18; padding: 0 5px; width:max-content">
+                        <p id="demo2" style="color: white; background-color: #df8a18; padding: 0 5px; width:max-content;">
                         </p>
                     </div>
                 </div>
                 <div id="reply" style="display: none;">
 
                     <p id="extra" style=" color: #fff; text-align: center; width: 30%;">
-                        Would you like us to deliver at an extra cost of Ksh 50?
+                        Would you like us to deliver at an extra cost of Ksh <span>50</span> ? If not, ignore.
                     </p>
+                    <p id="location" type="text" placeholder="" style="background-color: #df8a18; padding: 0 5px; width:max-content; border-radius: 5px; border: none;" onclick="myPrompt()">input location</p>
                     <p onclick="yes()" id="yes"
-                        style=" background-color: #df8a18; padding: 0 5px; width:max-content; border-radius: 5px;"> YES
+                        style=" background-color: #df8a18; color: #fff; padding: 0 5px; width:max-content; border-radius: 5px; margin-top: 5px;"> Check Out
                     </p>
                 </div>
             </div>

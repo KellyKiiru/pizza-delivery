@@ -1,16 +1,30 @@
 $(document).ready(function () {
     $('.asdf').click(function () {
-        $('.kama').show();
+        $('.kama').show(0);
         $('#placeOrders').click(function () {
-            $('#reply').show();
+            $('#reply').show(0);
         })
     })
-    $('#yes').click(function(){
-        $('#demo').hide();
+    $('#yes').click(function () {
+        $('#demo').hide(0, function () {
+            // $('#modal').show(0);
+        });
     });
 });
 
 
+function myPrompt() {
+
+    let promptLocation = prompt("enter your location:")
+    return locations = promptLocation
+    // console.log(locations)
+}
+
+let jina = document.getElementById('jina')
+
+let Location = document.getElementById('location');
+
+let message = document.getElementById('modal')
 
 let size = document.getElementById('size')
 
@@ -54,7 +68,7 @@ let deliveryFee = 50;
 
 
 function myFunction() {
-    
+
     // price setting for all large sizes toppings and crust
 
     if (size.value == 'Large' && crust.value == 'Crispy' && toppings.value == 'Grilled Pineapple') {
@@ -152,9 +166,11 @@ function myFunction() {
 
 function yes() {
 
+    // prompt("enter your location:")
+
     if (size.value == 'Large' && crust.value == 'Crispy' && toppings.value == 'Grilled Pineapple') {
         let sum1 = sizePrice.large + crustPrice[0] + toppingsPrice[0]
-        return document.getElementById('demo2').innerText = sum1 + deliveryFee
+        alert("Hi " + jina.value + ". Your order will be delivered to your location " + locations + " at a total cost of " + (sum1 + 50))
     } else if (size.value == 'Large' && crust.value == 'Crispy' && toppings.value == 'Bacon Pickle') {
         let sum2 = sizePrice.large + crustPrice[0] + toppingsPrice[1]
         return document.getElementById('demo2').innerText = myFunction() + deliveryFee
@@ -240,6 +256,5 @@ function yes() {
         let sum27 = sizePrice.small + crustPrice[2] + toppingsPrice[2]
         return document.getElementById('demo2').innerText = sum27 + deliveryFee
     };
-
 
 }
