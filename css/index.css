@@ -17,7 +17,7 @@ li {
 }
 
 header {
-    background-image: url('images/bg2.png');
+    background-image: url('/images/bg2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +32,7 @@ header {
 }
 
 .p-4 a {
-    font-size: x-large;
+    font-size: large;
 }
 .carousel-inner{
     height: 400px;
