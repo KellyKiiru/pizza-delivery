@@ -10,7 +10,7 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>pIZZA HUB is an online order pizza project that puts into use my knowledge of javascript and jquery so far. It was challenging.
+<p>PIZZA HUB is an online order pizza project that puts into use my knowledge of javascript and jquery so far. It was challenging.
 
 Check it out on the live link in the Description.</p>
 
