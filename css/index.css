@@ -17,7 +17,7 @@ li {
 }
 
 header {
-    background-image: url('/images/bg2.png');
+    background-image: url('images/bg2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,6 @@ header {
 .p-4 {
     display: flex;
     justify-content: space-between;
-    /* border: 4px solid white; */
 
 }
 
@@ -36,15 +35,6 @@ header {
     font-size: x-large;
 }
 .carousel-inner{
-    /* width: 80%; */
-    /* display: flex;
-    justify-content: center; */
-    /* width: max-content; */
-    /* margin-left: 200px; */
-    /* margin-right: auto; */
-    /* background-color: rgb(16, 17, 17); */
-    /* position: relative;
-    left: 25%; */
     height: 400px;
 }
 .carousel{
@@ -54,11 +44,6 @@ header {
     position: relative;
     top: 150px; 
 }
-/* .col-md-2{
-    background-color: red;
-    border: 3px solid yellow;
-    height: 200px;
-} */
 main{
     display: flex;
     justify-content: center;
