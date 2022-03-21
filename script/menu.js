@@ -6,7 +6,11 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('form').hide();
     $('.card').hover(function(){
-        $('form').toggle();
+        $('form').show(500);
+        $('form').mouseleave(function(){
+            $('#demo').hide();
+            $('form').hide(500);
+        });
     });
 });
 function myFunction() {
