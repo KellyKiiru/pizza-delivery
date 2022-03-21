@@ -62,7 +62,7 @@ body {
 }
 
 .kama {
-    /* display: none; */
+    display: none;
     background-color: #ff000040;
     padding: 20px;
     box-shadow: 0 0 20px #00000010;
@@ -111,4 +111,7 @@ form p {
     margin-top: 10px;
     border-radius: 5px;
 
+}
+#yes:hover{
+    cursor: pointer;
 }
