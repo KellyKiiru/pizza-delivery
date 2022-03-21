@@ -63,19 +63,15 @@ body {
 
 .kama {
     /* display: none; */
-    /* position: relative;
-    top: 70vh;
-    left: 20vh; */
-    /* width: 100%; */
-    /* max-width: max-content; */
     background-color: #ff000040;
     padding: 20px;
     box-shadow: 0 0 20px #00000010;
     border-radius: 8px;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
     z-index: 1000;
 }
-.form{
+
+.form {
     width: 100%;
     /* background-color: #fff; */
     display: flex;
@@ -83,6 +79,7 @@ body {
     align-items: center;
     padding: 20px;
 }
+
 form {
     width: 100%;
     font-size: 20px;
@@ -103,6 +100,15 @@ form input::placeholder {
     color: white;
 }
 
-form input datalist option::-ms-value {
+form p {
     color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#demo {
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+
 }

@@ -1,18 +1,22 @@
+// $(document).ready(function(){
+//     $('#placeOrders').click(function(){
+//         $('#demo').show();
+//     });
+// });
+// $(document).ready(function(){
+//     $('form').hide();
+//     $('.card').hover(function(){
+//         $('form').show(500);
+//         $('form').mouseleave(function(){
+//             $('#demo').hide();
+//             $('form').hide(500);
+//         });
+//     });
+// });
+
 $(document).ready(function(){
-    $('#placeOrders').click(function(){
-        $('#demo').show();
-    });
-});
-$(document).ready(function(){
-    $('form').hide();
-    $('.card').hover(function(){
-        $('form').show(500);
-        $('form').mouseleave(function(){
-            $('#demo').hide();
-            $('form').hide(500);
-        });
-    });
-});
+    $('')
+})
 function myFunction() {
 
     let size = document.getElementById('size')
