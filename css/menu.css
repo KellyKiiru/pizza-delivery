@@ -45,8 +45,8 @@ li {
 }
 
 body {
-    background-image: url('/bg2.png');
-    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max');
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
